@@ -1,7 +1,25 @@
-from PlayingCard import PlayingCard
-from HandOfCards import HandOfCards
-import random
+from src.PlayingCard import PlayingCard
+from src.HandOfCards import HandOfCards
 
+
+# Fikk følgende feilmelding uten å legge til src. foran PlayingCard og HandOfCards:
+
+# ---------------------------------------------------------------------------
+# ModuleNotFoundError                       Traceback (most recent call last)
+# Cell In[12], line 6
+#       4 from src.PlayingCard import PlayingCard
+#       5 from src.HandOfCards import HandOfCards
+# ----> 6 from src.DeckOfCards import DeckOfCards
+#       8 import random
+
+# File c:\Users\aa610\OneDrive\Digfor år.1\Anv Prog\TDT4114-mand_assign_2\notebooks\..\src\DeckOfCards.py:1
+# ----> 1 from PlayingCard import PlayingCard
+#       2 from HandOfCards import HandOfCards
+#       3 import random
+
+# ModuleNotFoundError: No module named 'PlayingCard'
+
+import random
 
 class DeckOfCards:
     """
